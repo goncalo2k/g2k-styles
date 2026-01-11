@@ -31,7 +31,6 @@
     "url": "https://github.com/goncalo2k/g2k-styles/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
     "access": "public"
   }
 }
