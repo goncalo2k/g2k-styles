@@ -1,5 +1,5 @@
 {
-  "name": "@g2k/g2k-styles",
+  "name": "@goncalo2k/g2k-styles",
   "version": "1.0.0",
   "description": "Sass design tokens (colors, spacing, sizes) for my projects.",
   "license": "MIT",
@@ -21,5 +21,17 @@
   "packageManager": "pnpm@10.18.1",
   "devDependencies": {
     "sass": "^1.97.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goncalo2k/g2k-styles.git"
+  },
+  "homepage": "https://github.com/goncalo2k/g2k-styles#readme",
+  "bugs": {
+    "url": "https://github.com/goncalo2k/g2k-styles/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   }
 }
