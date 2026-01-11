@@ -4,4 +4,4 @@ Sass design tokens: colors + sizing scale. This package is coverage by the MIT l
 
 ## Install
 ```bash
-npm i @your-scope/design-tokens
+npm i @goncalo2k/g2k-styles
