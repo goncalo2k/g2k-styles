@@ -1,6 +1,6 @@
 {
   "name": "@goncalo2k/g2k-styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sass design tokens (colors, spacing, sizes) for my projects.",
   "license": "MIT",
   "private": false,
