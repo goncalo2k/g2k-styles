@@ -1,0 +1,38 @@
+name: Tag on main
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    if: ${{ github.actor != 'github-actions[bot]' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install
+        run: npm install
+
+      - name: Bump version and create tag
+        run: |
+          npm version patch -m "chore(release): v%s [skip ci]"
+
+      - name: Push commit and tags
+        run: git push --follow-tags
