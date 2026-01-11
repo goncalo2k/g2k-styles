@@ -1,7 +1,7 @@
 {
   "name": "@goncalo2k/g2k-styles",
   "sass": "dist/index.scss",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Sass design tokens (colors, spacing, sizes) for my projects.",
   "license": "MIT",
   "private": false,
