@@ -1,0 +1,10 @@
+node_modules
+.git
+.DS_Store
+npm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+src
+scripts
+*.log

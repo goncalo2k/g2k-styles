@@ -1,0 +1,25 @@
+{
+  "name": "@g2k/g2k-styles",
+  "version": "1.0.0",
+  "description": "Sass design tokens (colors, spacing, sizes) for my projects.",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.scss",
+    "./tokens": "./dist/tokens/_index.scss",
+    "./colors": "./dist/tokens/_colors.scss",
+    "./sizes": "./dist/tokens/_sizes.scss"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "packageManager": "pnpm@10.18.1",
+  "devDependencies": {
+    "sass": "^1.97.2"
+  }
+}

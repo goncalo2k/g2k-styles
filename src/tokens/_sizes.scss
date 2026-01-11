@@ -1,0 +1,21 @@
+// --------------------------------------------------
+// Base spacing unit
+// --------------------------------------------------
+
+// 1 unit = 4px (industry standard: Tailwind, Material, etc.)
+$spacing-unit: 0.25rem; // 4px
+
+// --------------------------------------------------
+// Spacing scale (multiples of the base unit)
+// --------------------------------------------------
+
+$spacing-0: 0;
+$spacing-1: $spacing-unit * 1;  // 4px
+$spacing-2: $spacing-unit * 2;  // 8px
+$spacing-3: $spacing-unit * 3;  // 12px
+$spacing-4: $spacing-unit * 4;  // 16px
+$spacing-5: $spacing-unit * 5;  // 20px
+$spacing-6: $spacing-unit * 6;  // 24px
+$spacing-8: $spacing-unit * 8;  // 32px
+$spacing-10: $spacing-unit * 10; // 40px
+$spacing-12: $spacing-unit * 12; // 48px
