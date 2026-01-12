@@ -13,7 +13,8 @@
     ".": "./dist/index.scss",
     "./tokens": "./dist/tokens/_index.scss",
     "./colors": "./dist/tokens/_colors.scss",
-    "./sizes": "./dist/tokens/_sizes.scss"
+    "./sizes": "./dist/tokens/_sizes.scss",
+    "./breakpoints": "./dist/responsive/_breakpoints.scss"
   },
   "scripts": {
     "build": "node scripts/build.mjs",
