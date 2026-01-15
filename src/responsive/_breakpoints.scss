@@ -1,6 +1,6 @@
-// src/responsive/_breakpoints.scss
 $breakpoints: (
     mobile: 0px,
+    mobile-wide: 468px,
     tablet: 768px,
     desktop: 1024px,
     wide: 1280px,
@@ -27,6 +27,18 @@ $breakpoints: (
 
 @mixin tablet-up {
     @media (min-width: bp(tablet)) {
+        @content;
+    }
+}
+
+@mixin mobile-wide-up {
+    @media (min-width: bp(mobile-wide)) {
+        @content;
+    }
+}
+
+@mixin mobile-wide-down {
+    @media (max-width: bp(mobile-wide)) {
         @content;
     }
 }
